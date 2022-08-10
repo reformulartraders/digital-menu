@@ -14,7 +14,7 @@ export default {
   actions: {
     async ['loadData']({state}){
 
-      const id = '1Hrhw7xC5NFxNyblD7aZ7afD1DFzHlSsQidav0e6Hshw'
+      const id = '18Kih9dK7NlO6lvLx7np1xpqHqRnjnDqn7Pmaaoa3bXA'
       const url = `https://docs.google.com/spreadsheets/d/${id}/gviz/tq?tqx=out:json`
       
       state.items = await fetch(url)
