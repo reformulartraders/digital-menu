@@ -5,7 +5,7 @@ module.exports = {
     config
       .plugin('html')
       .tap((args) => {
-        args[0].title = 'Menu Colosso';
+        args[0].title = 'Take Lanches';
         return args;
       });
   },
